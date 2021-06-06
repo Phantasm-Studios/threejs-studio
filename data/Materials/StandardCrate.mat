@@ -1,0 +1,17 @@
+{
+	"metadata": {
+		"version": 4.5,
+		"type": "Material",
+		"generator": "Material.toJSON"
+	},
+	"uuid": "D62FBDDB-7AF6-4F6F-86E6-01FC1F2AD4A4",
+	"type": "MeshStandardMaterial",
+	"color": 16777215,
+	"roughness": 0.7,
+	"metalness": 0,
+	"emissive": 0,
+	"map": "Textures/crate.jpg",
+	"depthFunc": 3,
+	"depthTest": true,
+	"depthWrite": true
+}

@@ -1,0 +1,14 @@
+{
+	"metadata": {
+		"version": 4.5,
+		"type": "Material",
+		"generator": "Material.toJSON"
+	},
+	"uuid": "B9EC7331-8BCD-4512-8CF7-A6A34646C0ED",
+	"type": "MeshLambertMaterial",
+	"color": 4772194,
+	"emissive": 0,
+	"depthFunc": 3,
+	"depthTest": true,
+	"depthWrite": true
+}

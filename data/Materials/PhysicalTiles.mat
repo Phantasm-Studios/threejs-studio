@@ -1,0 +1,19 @@
+{
+	"metadata": {
+		"version": 4.5,
+		"type": "Material",
+		"generator": "Material.toJSON"
+	},
+	"uuid": "141717F5-7AE0-4FA5-94A9-2D77B03504E4",
+	"type": "MeshPhysicalMaterial",
+	"color": 16777215,
+	"roughness": 0.5,
+	"metalness": 0.5,
+	"emissive": 0,
+	"clearCoat": 0,
+	"clearCoatRoughness": 0,
+	"map": "Textures/tiles.jpg",
+	"depthFunc": 3,
+	"depthTest": true,
+	"depthWrite": true
+}

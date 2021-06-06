@@ -1,0 +1,69 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>ThreeStudio</title>
+
+		<script>
+			fs = require('fs-extra');  // All fs methods return promises if the callback isn't passed.
+			file = require('file');
+			path = require('path').posix;
+			path.split = p => p.split(/[\/\\]+/);
+
+			$ = jQuery = require('jquery');
+			THREE = require('three');
+			Ammo = require('ammojs');
+			CSG = require('csg');
+			esprima = require('esprima');
+			CoffeeScript = require('coffeescript');
+			RapydScript = require('rapydscript');
+		</script>
+
+		<script src="../node_modules/three/examples/js/loaders/FBXLoader.js"></script>
+		<script src="../node_modules/three/examples/js/loaders/OBJLoader.js"></script>
+		<script src="../node_modules/three/examples/js/loaders/TGALoader.js"></script>
+
+		<script src="utils/func.js"></script>
+		<script src="utils/input.js"></script>
+		<script src="utils/file.js"></script>
+		<script src="utils/math.js"></script>
+		<script src="utils/csg.js"></script>
+
+		<script src="core/field.js"></script>
+		<script src="core/world.js"></script>
+		<script src="core/actor.js"></script>
+		<script src="core/scene.js"></script>
+		<script src="core/project.js"></script>
+		<script src="core/game.js"></script>
+
+		<script src="assets/asset.js"></script>
+		<script src="assets/geometry.js"></script>
+		<script src="assets/texture.js"></script>
+		<script src="assets/material.js"></script>
+		<script src="assets/physics-material.js"></script>
+		<script src="assets/code/code.js"></script>
+		<script src="assets/code/javascript.js"></script>
+		<script src="assets/code/coffeescript.js"></script>
+		<script src="assets/code/rapydscript.js"></script>
+
+		<script src="components/component.js"></script>
+		<script src="components/transform.js"></script>
+		<script src="components/model.js"></script>
+		<script src="components/light.js"></script>
+		<script src="components/camera.js"></script>
+		<script src="components/script.js"></script>
+		<script src="components/physics/body.js"></script>
+		<script src="components/physics/shape.js"></script>
+		<script src="components/physics/box-shape.js"></script>
+		<script src="components/physics/sphere-shape.js"></script>
+		<script src="components/physics/cylinder-shape.js"></script>
+		<script src="components/physics/cone-shape.js"></script>
+		<script src="components/physics/mesh-shape.js"></script>
+
+		<script src="views/view.js"></script>
+		<script src="views/renderer.js"></script>
+		<script src="views/game-renderer.js"></script>
+
+		<script src="player.js"></script>
+		<link rel="stylesheet" href="index.css"/>
+	</head>
+</html>
